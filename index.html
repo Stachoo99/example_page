@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- NAWIGACJA START-->
+    <nav class="navbar fixed-top navbar-expand-lg" id="main-nav">
+        <a class="navbar-brand" href="#">
+            <img src="img/bootstrap-solid.svg" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#ofirmie">O nas <span class="sr-only">(current)</span></a>
+                <!--                <a class="nav-item nav-link" href="#">Osiągnięcia</a>-->
+                <a class="nav-item nav-link" href="">Technologie</a>
+                <a class="nav-item nav-link" href="">Kontakt</a>
+                <a class="nav-item nav-link" href="">Projekty</a>
+                <!--                <a class="nav-item nav-link disabled" href="#">Disabled</a>-->
+            </div>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2 formularz" type="text" placeholder="Szukaj">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Szukaj</button>
+            </form>
+        </div>
+    </nav>
+    <!-- NAWIGACJA KONIEC -->
+    <!-- HEADER START -->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 header">
+                    <h1 class="naglowek1 text-center">Witaj</h1>
+                    <h3 class="naglowek2 text-center">Zaplanuj z nami swoją przyszłość.</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER KONIEC -->
+    <!-- SEKCJA START -->
+    <section>
+
+        <div class="container firstsection">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="dom">
+                        <div class="maska">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 onas">
+                    <h3 class="naszafirma text-center" id="ofirmie">Nasza firma</h3>
+                    <p class="ofirmie text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero et dolorum similique itaque sit tempora pariatur eos nemo harum nesciunt deleniti quis eius ipsa incidunt in omnis laudantium, consectetur quasi tenetur, officia assumenda, totam. Repellat esse quam alias consectetur, nam neque ex aperiam. Incidunt quam tenetur rem at mollitia fugiat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SEKCJA KONIEC -->
+    <!-- KARUZELA -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" id="img1">
+                <img class="d-block img-fluid" src="..." alt="">
+            </div>
+            <div class="carousel-item" id="img2">
+                <img class="d-block img-fluid" src="..." alt="">
+            </div>
+            <div class="carousel-item" id="img3">
+                <img class="d-block img-fluid" src="..." alt="">
+            </div>
+            <div class="carousel-item" id="img4">
+                <img class="d-block img-fluid" src="..." alt="">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+    </div>
+    <!-- KARUZELA STOP -->
+
+    <!-- KONTAKT -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 footer">
+                <div class="maincontent">
+                    <h3>Jak do nas trafić</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.5106909793826!2d19.911501315447634!3d50.095447420762014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a38864f3a59%3A0x3df56776eb33eb08!2sNawigacyjna+2%2C+Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1517333008135" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="maincontentright">
+                    <h3>Dane Kontaktowe</h3>
+                    <address class="text-right" id="danekontaktowe">
+<a href="mailto:webmaster@example.com">Jan Kowalski</a><br> 
+Ul. Nawigacyjna 2<br>
+Kraków, 31-330<br>
+Polska<br>
+Tel. 888-888-888
+
+</address>
+
+                    <!-- KONTAKT STOP -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="text-center" id="main-footer">
+
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

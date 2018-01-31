@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #000;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-item {
+    color: #28a745;
+}
+
+.nav-item:hover {
+    color: #FFF;
+    transition: all 0.4s;
+}
+
+.after-fix {
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: all 0.4s;
+}
+
+/* NAVBAR KONIEC */
+
+/* SEARCHBAR */
+
+.form-inline {
+    padding-left: 763px;
+}
+
+.formularz {
+    background-color: #000;
+    border: 1px solid grey;
+}
+
+.formularz:hover {
+    transition: all 0.4s;
+}
+
+.faduj {
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: all 0.4s;
+}
+
+/* SEARCHBAR KONIEC */
+
+/* HEADER */
+
+.naglowek1 {
+    padding-top: 23%;
+    color: #FFF;
+    font-size: 70px;
+}
+
+.naglowek2 {
+    color: #FFF;
+    font-size: 45px;
+}
+
+.header {
+    background-image: url(../img/architecture-3050682_1920.jpg);
+    background: center cover;
+    height: 800px;
+    margin: 0;
+}
+
+/* HEADER KONIEC */
+
+/* SEKCJA */
+
+.firstsection {
+    padding-top: 100px;
+}
+
+.naszafirma {
+    padding-top: 1%;
+}
+
+.dom {
+    background-image: url(../img/apartment-2094701_640.jpg);
+    background: cover center;
+    height: 426px;
+}
+
+.dom:hover {
+    transform: scale(1.2);
+    transition: all 0.4s;
+    z-index: 1;
+}
+
+.maska {
+    background-color: #28a745;
+    opacity: 0;
+    width: 94.7%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+.maska:hover {
+    opacity: 0.8;
+    transform: scale(1.01);
+    width:100%;
+    transition: all 0.4s;
+}
+
+/* SEKCJA KONIEC */
+
+/* KARUZELA */
+
+#carouselExampleIndicators {
+    height: 580px;
+    padding-top: 5%;
+}
+
+#carouselExampleIndicators .carousel-inner {
+    height: 100%;
+}
+
+#img1 {
+    background-image: url(../img/kamienice01.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    background-image: url(../img/architecture-3050682_1920.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img3 {
+    background-image: url(../img/drapacz01.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img4 {
+    background-image: url(../img/apartment-2094701_640.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* FOOTER */
+.maincontent {
+    height: 450px;
+}
+
+.maincontent h3 {
+    margin: 24px 183px;
+}
+
+.maincontentright h3 {
+	margin: 24px 201px;
+}
+
+#danekontaktowe {
+    margin: 56px 56px;
+    font-size: 24px;
+}
+
+#danekontaktowe a{
+    text-decoration: none;
+}
+
+#main-footer {
+    width: 100%;
+    position: absolute;
+    color: #000;
+    margin: 74px 0px 0px 0px;
+}
